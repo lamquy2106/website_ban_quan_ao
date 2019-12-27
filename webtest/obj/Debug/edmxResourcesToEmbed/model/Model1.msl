@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="wsbanquanaoModelStoreContainer" CdmEntityContainer="wsbanquanaoEntities">
+    <EntitySetMapping Name="sanphams">
+      <EntityTypeMapping TypeName="wsbanquanaoModel.sanpham">
+        <MappingFragment StoreEntitySet="sanpham">
+          <ScalarProperty Name="Masp" ColumnName="Masp" />
+          <ScalarProperty Name="Tensp" ColumnName="Tensp" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="Mota" ColumnName="Mota" />
+          <ScalarProperty Name="Hinh" ColumnName="Hinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
